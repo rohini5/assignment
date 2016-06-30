@@ -1,0 +1,76 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #ccc; }
+
+#page-wrapper {
+  background-color: #F1F1F1; }
+
+hr {
+  border: 0;
+  border-top: 2px solid #0c0c0c; }
+
+.profile-container {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #dcdcdc;
+  box-sizing: border-box;
+  border-bottom: 0; }
+
+.profile-summary {
+  margin: 1em; }
+  .profile-summary h1 {
+    border-bottom: 1 px solid black;
+    font-weight: bold; }
+
+.about {
+  background-color: #999; }
+  .about .title {
+    text-align: center;
+    font-weight: bold; }
+
+.practise-details .practise h3 {
+  font-weight: bold; }
+.practise-details .practise .name {
+  font-weight: bold; }
+
+.timing {
+  padding: 2em;
+  width: 100%;
+  border: 1px solid black;
+  /*position: relative; */
+  background-color: rgba(232, 145, 145, 0.42); }
+  .timing .btn-solid {
+    color: black;
+    border-radius: 3px;
+    padding: 4px 6px;
+    background: #bfb9b9; }
+  .timing .inline-div {
+    margin-right: 28px;
+    display: inline-block;
+    width: 142px;
+    float: left;
+    margin-left: 13px; }
+  .timing .available {
+    padding: 24px;
+    width: 100%;
+    height: 106px;
+    border: 1px solid black;
+    position: relative; }
+    .timing .available .alignm {
+      display: inline-block;
+      text-align: center; }
+      .timing .available .alignm p {
+        margin-top: 16px; }
+    .timing .available span {
+      display: inline-block;
+      width: 67px;
+      height: 33px;
+      border-radius: 15px;
+      border: 1px solid black;
+      /*	position: relative;*/
+      padding-top: 6px;
+      margin-right: 6px; }
+    .timing .available i {
+      position: absolute; }
+
+/*# sourceMappingURL=style.css.map */
