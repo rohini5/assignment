@@ -7,7 +7,9 @@ body {
 
 hr {
   border: 0;
-  border-top: 2px solid #0c0c0c; }
+  border-top: 2px solid #0c0c0c;
+  margin-top: 0px;
+  margin-bottom: 11px; }
 
 .profile-container {
   background-color: #fff;
@@ -23,22 +25,25 @@ hr {
     font-weight: bold; }
 
 .about {
-  background-color: #999; }
+  background-color: #999;
+  margin-top: 33px; }
   .about .title {
     text-align: center;
-    font-weight: bold; }
+    font-weight: bold;
+    padding-top: 9px; }
+  .about .objective {
+    padding: 0px 0px 6px 13px; }
 
-.practise-details .practise h3 {
+.practice-details .practice h3 {
   font-weight: bold; }
-.practise-details .practise .name {
+.practice-details .practice .name {
   font-weight: bold; }
 
 .timing {
   padding: 2em;
   width: 100%;
   border: 1px solid black;
-  /*position: relative; */
-  background-color: rgba(232, 145, 145, 0.42); }
+  background-color: rgba(255, 178, 38, 0.23); }
   .timing .btn-solid {
     color: black;
     border-radius: 3px;
@@ -67,10 +72,34 @@ hr {
       height: 33px;
       border-radius: 15px;
       border: 1px solid black;
-      /*	position: relative;*/
       padding-top: 6px;
       margin-right: 6px; }
     .timing .available i {
-      position: absolute; }
+      position: absolute;
+      top: 38px;
+      font-size: 27px;
+      right: -9px; }
+
+.lastpage {
+  margin-top: 1em; }
+  .lastpage .profile-details {
+    height: 300px;
+    width: 222px;
+    border: 1px solid black;
+    margin: 13px;
+    background-color: #eae8e8; }
+  .lastpage .details {
+    height: 208px;
+    width: 188px;
+    border: 1px solid black;
+    background-color: #fff; }
+    .lastpage .details p {
+      text-align: left;
+      line-height: 28px;
+      padding-left: 6px; }
+  .lastpage .Extra {
+    width: 235px; }
+  .lastpage .adjust-size {
+    width: 202px; }
 
 /*# sourceMappingURL=style.css.map */
