@@ -3,8 +3,7 @@
 	padding: 2em;
 	width: 100%;
 	border: 1px solid black;
-	/*position: relative; */
-	background-color: hsla(0, 66%, 74%, 0.42);
+	background-color: rgba(255, 178, 38, 0.23);
 	.btn-solid{
 		color: black;
 		border-radius: 3px;
@@ -39,12 +38,14 @@
     height: 33px;
 		border-radius: 15px;
 		border: 1px solid black;
-	/*	position: relative;*/ 
     padding-top: 6px;
         margin-right: 6px;
 		}
 		i{
-			position: absolute;
+			    position: absolute;
+    top: 38px;
+    font-size: 27px;
+    right: -9px;
 		}
 	}
 }
